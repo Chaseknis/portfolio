@@ -1,8 +1,11 @@
 import './App.css';
+import Header from './components/Header'; // Updated import statement
 
 function App() {
   return (
-    <div className="App" />
+    <>
+      <Header />
+    </>
   );
 }
 
