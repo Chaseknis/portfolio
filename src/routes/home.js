@@ -1,10 +1,36 @@
 import React from 'react';
 import './styles/home.css';
+import Social from '../components/Social';
 
-function home() {
+function Home() {
   return (
-    <h1>home</h1>
+    <section>
+      <div className="home_container">
+        <div className="home_wrapper">
+          <Social />
+
+          <div className="home_image" />
+
+          <div className="information_container">
+            <h1>Chase</h1>
+
+            <h3>Fullstack Developer</h3>
+
+            <p>
+              I&apos;m an experienced full stack developer based in Kigali,
+              Rwanda, crafting innovative web solutions for businesses worldwide.
+            </p>
+
+            <a href="/contact" className="home_button">
+              Say hi!
+              <i className="uil uil-message" />
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 
-export default home;
+export default Home;
