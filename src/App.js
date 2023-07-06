@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+// import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import Home from './routes/Home';
@@ -13,14 +13,22 @@ function App() {
     <>
       <Header />
       <main className="page_container">
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/services" element={<Services />} />
           <Route path="/skills" element={<Skills />} />
-        </Routes>
+        </Routes> */}
+
+        <Home />
+        <About />
+        <Skills />
+        <Contact />
+        <Portfolio />
+        <Services />
+
       </main>
     </>
   );

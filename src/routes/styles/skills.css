@@ -1,0 +1,71 @@
+.skills_group {
+  display: grid;
+  grid-template-columns: repeat(2, 350px);
+  justify-content: center;
+  column-gap: 3rem;
+}
+
+.skills_details_container {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: #ffca7a;
+  border-bottom-color: #ffca7a;
+  border-left-style: none;
+  border-right-style: none;
+  border-radius: 5px;
+  padding: 1rem 4px;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px, rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+}
+
+.skills_details_title {
+  font-size: 17px;
+  font-weight: 600;
+  color: #ac0d0d;
+  margin-bottom: 1rem;
+}
+
+.skills_card {
+  display: flex;
+  justify-content: center;
+  column-gap: 2.5rem;
+}
+
+.skills_wrapper {
+  display: grid;
+  align-items: flex-start;
+  row-gap: 1rem;
+}
+
+.skills_information {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.skills_information .bx-badge-check {
+  color: #ffca7a;
+  font-size: 1rem;
+}
+
+.skills_information h3 {
+  color: #ffca7a;
+}
+
+.skills_name_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.skills_name_wrapper h3 {
+  color: #ffca7a;
+  font-size: 14px;
+}
+
+.skills_name_wrapper span {
+  color: rgba(255, 202, 122, 0.6);
+  font-size: 10px;
+}

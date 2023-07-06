@@ -5,7 +5,7 @@ import ScrollDown from '../components/scrollDown';
 
 function Home() {
   return (
-    <section>
+    <section id="home">
       <div className="home_container">
         <div className="home_wrapper">
           <Social />

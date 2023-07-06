@@ -1,7 +1,6 @@
 .home_container {
   display: grid;
-  row-gap: 7rem;
-
+  row-gap: 8rem;
 }
 
 h1 {
@@ -10,7 +9,7 @@ h1 {
   margin-bottom: 1rem;
 }
 
-h3 {
+.information_container h3 {
   position: relative;
   font-size: 17px;
   font-weight: 600;
@@ -19,7 +18,7 @@ h3 {
   padding-left: 5.4rem;
 }
 
-h3::before {
+.information_container h3::before {
   width: 70px;
   height: 1px;
   content: '';
@@ -30,10 +29,13 @@ h3::before {
 }
 
 p {
-  max-width: 400px;
   color: rgba(255, 202, 122, 0.6);
   font-size: 12px;
   margin-bottom: 2rem;
+}
+
+.home_wrapper p {
+  max-width: 400px;
 }
 
 .home_button {
@@ -85,7 +87,7 @@ p {
 .home_image {
   width: 350px;
   height: 350px;
-  background: linear-gradient(-25deg, rgba(10, 47, 53, 0.7) 0%, rgba(3, 37, 4, 0.9) 100%), url(../../images//IMG_3343.JPG);
+  background: linear-gradient(-25deg, rgba(10, 47, 53, 0.7) 0%, rgba(3, 37, 4, 0.9) 100%), url(../../assets//IMG_3343.JPG);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -119,7 +121,6 @@ p {
     width: 300px;
     height: 300px;
   }
-  
 }
 
 @media screen and (max-width: 768px) {
@@ -138,7 +139,6 @@ p {
   .information_container {
     grid-column: 1/3;
   }
- 
 }
 
 @media screen and (max-width: 350px) {
@@ -146,6 +146,4 @@ p {
     max-width: 180px;
     max-height: 180px;
   }
- 
 }
-
