@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/home.css';
 import Social from '../components/Social';
+import ScrollDown from '../components/scrollDown';
 
 function Home() {
   return (
@@ -28,6 +29,8 @@ function Home() {
 
           </div>
         </div>
+
+        <ScrollDown />
       </div>
     </section>
   );
