@@ -31,6 +31,7 @@
   display: flex;
   justify-content: center;
   column-gap: 2.5rem;
+  padding: 1rem 0;
 }
 
 .skills_wrapper {
@@ -49,10 +50,6 @@
   font-size: 1rem;
 }
 
-.skills_information h3 {
-  color: #ffca7a;
-}
-
 .skills_name_wrapper {
   display: flex;
   flex-direction: column;
@@ -63,9 +60,63 @@
 .skills_name_wrapper h3 {
   color: #ffca7a;
   font-size: 14px;
+  margin-bottom: 0.7rem;
 }
 
 .skills_name_wrapper span {
   color: rgba(255, 202, 122, 0.6);
   font-size: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .skills_group {
+    grid-template-columns: max-content;
+    row-gap: 3rem;
+  }
+
+  .skills_details_container {
+    padding: 1rem 2rem;
+  }
+
+  .skills_card {
+    column-gap: 4rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .skills_group {
+    row-gap: 2rem;
+  }
+
+  .skills_details_container {
+    padding: 1rem 1.5rem;
+  }
+
+  .skills_card {
+    column-gap: 3rem;
+    padding: 0.8rem 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .skills_group {
+    row-gap: 1rem;
+  }
+
+  .skills_details_container {
+    padding: 0.5rem 1rem;
+  }
+
+  .skills_card {
+    column-gap: 2rem;
+    padding: 0.5rem 0;
+  }
+
+  .skills_information .bx-badge-check {
+    font-size: 0.8rem;
+  }
+
+  .skills_name_wrapper h3 {
+    font-size: 10px;
+  }
 }

@@ -8,12 +8,11 @@ import Portfolio from './routes/Portfolio';
 import Skills from './routes/Skills';
 import Services from './routes/Services';
 
-function App() {
-  return (
-    <>
-      <Header />
-      <main className="page_container">
-        {/* <Routes>
+const App = () => (
+  <>
+    <Header />
+    <main className="page_container">
+      {/* <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
@@ -22,16 +21,15 @@ function App() {
           <Route path="/skills" element={<Skills />} />
         </Routes> */}
 
-        <Home />
-        <About />
-        <Skills />
-        <Contact />
-        <Portfolio />
-        <Services />
+      <Home />
+      <About />
+      <Skills />
+      <Services />
+      <Contact />
+      <Portfolio />
 
-      </main>
-    </>
-  );
-}
+    </main>
+  </>
+);
 
 export default App;
