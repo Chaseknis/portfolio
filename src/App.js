@@ -7,6 +7,8 @@ import Contact from './routes/Contact';
 import Portfolio from './routes/Portfolio';
 import Skills from './routes/Skills';
 import Services from './routes/Services';
+import Qualification from './routes/Qualification';
+import Work from './routes/Work';
 
 const App = () => (
   <>
@@ -25,6 +27,8 @@ const App = () => (
       <About />
       <Skills />
       <Services />
+      <Qualification />
+      <Work />
       <Contact />
       <Portfolio />
 

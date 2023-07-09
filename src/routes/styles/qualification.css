@@ -1,0 +1,142 @@
+
+/* .qualification_container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+    align-items: center;
+} */
+
+.qualification_group {
+  max-width: 768px;
+}
+
+.qualification_tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.qualification_button {
+  font-size: 17px;
+  font-weight: 600;
+  color: #ffca7a;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.qualification_button:hover {
+  color: rgba(255, 202, 122, 0.6);
+}
+
+.qualification_icon {
+  font-size: 1.7rem;
+  margin-right: 0.2rem;
+}
+
+.qualification_active {
+  color: rgba(255, 202, 122, 0.6);
+}
+
+.qualification_sections {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.qualification_content {
+  display: none;
+}
+
+.qualification_content_active {
+  display: block;
+}
+
+.qualification_data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 4.5rem;
+}
+
+.qualification_title {
+  width: 100%;
+  font-size: 17px;
+  font-weight: 600;
+  color: #ac0d0d;
+}
+
+.qualification_subtitle {
+  display: inline-block;
+  color: rgba(255, 202, 122, 0.6);
+  font-size: 12px;
+  margin-bottom: 1rem;
+}
+
+.qualification_calender {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #ffca7a;
+}
+
+.qualification_calender .qualification_icon {
+  font-size: 14px;
+  color: #ffca7a;
+}
+
+.qualification_rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: #ffca7a;
+  border-radius: 50%;
+}
+
+.qualification_line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #ffca7a;
+  transform: translate(6px, -7px);
+}
+
+@media screen and (max-width: 992px) {
+  .qualification_container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .qualification_container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .qualification_container {
+    grid-template-columns: initial;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .qualification_data {
+    column-gap: 3.6rem;
+  }
+
+  .qualification_button {
+    margin: 0 0.75rem;
+  }
+
+  .qualification_title {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .qualification_data {
+    column-gap: 0.5rem;
+  }
+}
