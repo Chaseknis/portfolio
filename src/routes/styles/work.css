@@ -93,17 +93,31 @@
 }
 
 @media screen and (max-width: 992px) {
-   
+  .work_group {
+    grid-template-columns: repeat(2, max-content);
   }
-  
-  @media screen and (max-width: 768px) {
-  
-  }
-  
-  @media screen and (max-width: 576px) {
+}
 
+@media screen and (max-width: 768px) {
+  .work_image {
+    width: 200px;
+    height: 100px;
   }
-  
-  @media screen and (max-width: 350px) {
+}
 
+@media screen and (max-width: 576px) {
+  .work_group {
+    grid-template-columns: repeat(1, max-content);
   }
+}
+
+@media screen and (max-width: 350px) {
+  .work_filters {
+    column-gap: 0.75rem;
+  }
+
+  .work_image {
+    width: 150px;
+    height: 80px;
+  }
+}
