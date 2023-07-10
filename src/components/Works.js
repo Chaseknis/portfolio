@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { projectsData, projectsNav } from './Data';
-// eslint-disable-next-line
 import WorkItems from './workItems';
 
 const Works = () => {
