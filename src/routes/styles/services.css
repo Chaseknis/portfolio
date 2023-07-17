@@ -104,10 +104,6 @@
   cursor: pointer;
 }
 
-/* .modal_header {
-    font-weight: 600;
-  } */
-
 .modal_header,
 .modal_description {
   text-align: center;

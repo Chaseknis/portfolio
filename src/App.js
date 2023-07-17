@@ -4,11 +4,11 @@ import Header from './components/Header';
 import Home from './routes/home';
 import About from './routes/About';
 import Contact from './routes/Contact';
-import Portfolio from './routes/Portfolio';
 import Skills from './routes/Skills';
 import Services from './routes/Services';
 import Qualification from './routes/Qualification';
 import Work from './routes/Work';
+import Footer from './routes/Footer';
 
 const App = () => (
   <>
@@ -30,7 +30,7 @@ const App = () => (
       <Qualification />
       <Work />
       <Contact />
-      <Portfolio />
+      <Footer />
 
     </main>
   </>

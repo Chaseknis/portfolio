@@ -9,10 +9,11 @@
 .page_container {
   width: 100%;
   padding: 10% 10%;
-  background-image: linear-gradient(-25deg, rgb(10, 47, 53) 0%, rgba(3, 37, 4, 0.739) 100%);
+  background-image: linear-gradient(-25deg, rgb(10, 47, 53) 0%, rgba(3, 37, 4, 0.739) 0%);
 }
 
 .container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

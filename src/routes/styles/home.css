@@ -72,10 +72,6 @@ p {
   padding-left: 8px;
 }
 
-/* .home_container{
-
-} */
-
 .home_wrapper {
   display: grid;
   grid-template-columns: 116px repeat(2, 1fr);
