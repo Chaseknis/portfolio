@@ -1,0 +1,40 @@
+.scroll_up {
+  position: fixed;
+  right: 2.5rem;
+  bottom: -20%;
+  color: #ffca7a;
+  padding: 12px 6px;
+  background-color: transparent;
+  border-radius: 5px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: #ffca7a;
+  border-bottom-color: #ffca7a;
+  border-left-style: none;
+  border-right-style: none;
+  opacity: 0.7;
+  z-index: 4;
+  transition: 0.4s;
+}
+
+.scroll_up:hover {
+  opacity: 1;
+}
+
+.show_scroll {
+  bottom: 3rem;
+}
+
+@media screen and (max-width: 992px) {
+  .scroll_up {
+    right: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .show_scroll {
+    bottom: 4rem;
+  }
+}
