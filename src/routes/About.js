@@ -18,7 +18,7 @@ const About = () => (
             <div className="about_card">
               <i className="bx bx-award about_icon" />
               <h3>Experience</h3>
-              <span>4 Years Working</span>
+              <span>2 Years Working</span>
             </div>
 
             <div className="about_card">
@@ -39,7 +39,7 @@ const About = () => (
             Experienced full-stack developer passionate about modern tech, seeking a
             challenging role with an innovative team to develop efficient, scalable, and
             user-friendly solutions. I have completed over 2000 hours of collaborative
-            learning and I have mastered HTML, CSS, JavaScript, React.Js, and Ruby on Rails.
+            learning and I have mastered HTML, CSS, JavaScript, React.Js, MySql and Ruby on Rails.
           </p>
 
           <a download="" href={Resume} className="about_button">
