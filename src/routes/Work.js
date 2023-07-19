@@ -3,7 +3,7 @@ import './styles/work.css';
 import Works from '../components/Works';
 
 const Work = () => (
-  <section id="work">
+  <section id="portfolio">
     <div className="work_container container">
       <h2>Portfolio</h2>
 

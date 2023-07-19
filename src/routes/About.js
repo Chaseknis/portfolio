@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles/about.css';
-import AboutImage from '../assets/IMG_3343.JPG';
 import Resume from '../assets/Innocent_N_Resume.pdf';
 
 const About = () => (
@@ -11,7 +10,7 @@ const About = () => (
       <span className="subtitle">My Introduction</span>
 
       <div className="about_wrapper">
-        <img src={AboutImage} alt="" className="about_image" />
+        <div className="about_image" />
 
         <div className="about_information">
           <div className="info_cards_wrapper">

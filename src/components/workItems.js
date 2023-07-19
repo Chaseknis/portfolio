@@ -6,7 +6,7 @@ const WorkItems = ({ item }) => (
 
     <img src={item.image} alt="" className="work_image" />
     <h3 className="work_title">{item.title}</h3>
-    <a href="https://car-rental-capstone.netlify.app/" className="work_button button">
+    <a href={item.url} className="work_button button">
       Demo
       <i className="bx bx-right-arrow-alt work_button_icon" />
     </a>
@@ -19,6 +19,7 @@ WorkItems.propTypes = {
     id: PropTypes.number.isRequired,
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
   }).isRequired,
 };
 

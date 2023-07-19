@@ -108,12 +108,12 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .qualification_container {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
-}
+} */
 
 @media screen and (max-width: 576px) {
   .qualification_container {
