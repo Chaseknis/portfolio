@@ -12,12 +12,12 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <a href="/" className="logo">Chase</a>
+        <a href="#home" className="logo">Chase</a>
         <div className={toggle ? 'nav_menu show_menu' : 'nav_menu'}>
           <ul>
             <li>
               <a
-                href="/"
+                href="#home"
                 onClick={() => setActiveNav('#home')}
                 className={activeNav === '#home' ? 'nav_link active_link' : 'nav_link'}
               >

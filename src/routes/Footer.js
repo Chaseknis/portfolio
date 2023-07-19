@@ -4,18 +4,18 @@ import './styles/footer.css';
 const Footer = () => (
   <footer>
     <div className="footer_container">
-      <a href="/" className="logo footer_logo">Chase</a>
+      <a href="#home" className="logo footer_logo">Chase</a>
       <ul>
         <li>
-          <a href="/" className="footer_link">About</a>
+          <a href="#about" className="footer_link">About</a>
         </li>
 
         <li>
-          <a href="/" className="footer_link">Projects</a>
+          <a href="#portfolio" className="footer_link">Projects</a>
         </li>
 
         <li>
-          <a href="/" className="footer_link">Contact</a>
+          <a href="#contact" className="footer_link">Contact</a>
         </li>
       </ul>
 
