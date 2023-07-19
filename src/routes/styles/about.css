@@ -7,7 +7,7 @@
 
 .info_cards_wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 140px);
+  grid-template-columns: repeat(3, 32%);
   gap: 1rem;
   margin-bottom: 2rem;
 }
@@ -95,8 +95,8 @@ h2 {
 }
 
 .about_image {
-  width: 350px;
-  height: 350px;
+  width: 450px;
+  height: 450px;
   background: linear-gradient(-25deg, rgba(10, 47, 53, 0.5) 0%, rgba(3, 37, 4, 0.7) 100%), url(../../assets//alexandru-acea--WBYxmW4yuw-unsplash.jpg);
   background-repeat: no-repeat;
   background-position: center;
