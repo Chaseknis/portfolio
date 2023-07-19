@@ -8,8 +8,7 @@
 
 .page_container {
   width: 100%;
-  padding: 10% 10%;
-  background-image: linear-gradient(-25deg, rgb(10, 47, 53) 0%, rgba(3, 37, 4, 0.739) 0%);
+  background-image: linear-gradient(-25deg, rgb(10, 47, 53) 0%, rgba(3, 37, 4, 0.739) 10%);
 }
 
 .container {
@@ -17,17 +16,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10% 10%;
   margin-bottom: 6rem;
 }
 
 @media screen and (max-width: 992px) {
-  .page_container {
+  .container {
     padding: 20% 10%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .page_container {
+  .container {
     padding: 20% 5% 5% 5%;
   }
 }
