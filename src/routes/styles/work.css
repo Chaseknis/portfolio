@@ -92,6 +92,48 @@
   border-bottom-color: rgba(255, 202, 122, 0.6);
 }
 
+.pop_up_work_image {
+  width: 500px;
+  height: 400px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  opacity: .8;
+}
+
+.work_modal_wrapper {
+  width: 50%;
+  position: relative;
+  background-image: linear-gradient(-25deg, rgb(10, 47, 53) 0%, rgba(3, 37, 4, 0.739) 100%);
+  border-radius: 5px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: #ffca7a;
+  border-bottom-color: #ffca7a;
+  border-left-style: none;
+  border-right-style: none;
+  padding: 4.5rem 2.5rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work_modal_header {
+  font-size: 17px;
+  color: #ffca7a;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.work_pop_up_links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 992px) {
   .work_group {
     grid-template-columns: repeat(2, max-content);
