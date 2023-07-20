@@ -147,8 +147,13 @@
 }
 
 @media screen and (max-width: 576px) {
+  .services_group {
+    display: flex;
+    flex-direction: column;
+  }
+  
   .services_wrapper {
-    padding: 6rem 4rem 1rem 1rem;
+    padding: 6rem 8rem 2rem 2rem;
   }
 }
 
