@@ -1,3 +1,7 @@
+.contact_container {
+  height: 100vh;
+}
+
 .contact_group {
   width: 100%;
   display: flex;

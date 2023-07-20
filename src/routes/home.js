@@ -22,7 +22,7 @@ function Home() {
               Rwanda, crafting innovative web solutions for businesses worldwide.
             </p>
 
-            <a href="#contact" className="home_button">
+            <a href="/contact" className="home_button">
               Say hi!
               <i className="uil uil-message" />
             </a>

@@ -17,7 +17,7 @@ const Header = () => {
           <ul>
             <li>
               <a
-                href="#home"
+                href="/"
                 onClick={() => setActiveNav('#home')}
                 className={activeNav === '#home' ? 'nav_link active_link' : 'nav_link'}
               >
@@ -28,7 +28,7 @@ const Header = () => {
 
             <li>
               <a
-                href="#about"
+                href="/about"
                 onClick={() => setActiveNav('#about')}
                 className={activeNav === '#about' ? 'nav_link active_link' : 'nav_link'}
               >
@@ -39,7 +39,7 @@ const Header = () => {
 
             <li>
               <a
-                href="#skills"
+                href="/skills"
                 onClick={() => setActiveNav('#skills')}
                 className={activeNav === '#skills' ? 'nav_link active_link' : 'nav_link'}
               >
@@ -50,7 +50,7 @@ const Header = () => {
 
             <li>
               <a
-                href="#services"
+                href="/services"
                 onClick={() => setActiveNav('#services')}
                 className={activeNav === '#services' ? 'nav_link active_link' : 'nav_link'}
               >
@@ -61,7 +61,7 @@ const Header = () => {
 
             <li>
               <a
-                href="#qualification"
+                href="/qualification"
                 onClick={() => setActiveNav('#qualification')}
                 className={activeNav === '#qualification' ? 'nav_link active_link' : 'nav_link'}
               >
@@ -72,7 +72,7 @@ const Header = () => {
 
             <li>
               <a
-                href="#portfolio"
+                href="/portfolio"
                 onClick={() => setActiveNav('#portfolio')}
                 className={activeNav === '#portfolio' ? 'nav_link active_link' : 'nav_link'}
               >
@@ -83,7 +83,7 @@ const Header = () => {
 
             <li>
               <a
-                href="#contact"
+                href="/contact"
                 onClick={() => setActiveNav('#contact')}
                 className={activeNav === '#contact' ? 'nav_link active_link' : 'nav_link'}
               >

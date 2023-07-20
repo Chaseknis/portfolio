@@ -8,7 +8,8 @@
 
 .page_container {
   width: 100%;
-  background-image: linear-gradient(-25deg, rgb(10, 47, 53) 0%, rgba(3, 37, 4, 0.739) 10%);
+  height: auto;
+  background-image: linear-gradient(-25deg, rgb(10, 47, 53) 0%, rgba(3, 37, 4, 0.739) 50%);
 }
 
 .container {

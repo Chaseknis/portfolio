@@ -1,3 +1,7 @@
+.skills_container {
+  height: 100vh;
+}
+
 .skills_group {
   display: grid;
   grid-template-columns: repeat(2, 350px);

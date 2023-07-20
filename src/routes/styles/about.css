@@ -1,3 +1,7 @@
+.about_container {
+  height: 100vh;
+}
+
 .about_wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

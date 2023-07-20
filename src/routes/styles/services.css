@@ -1,3 +1,7 @@
+.services_container {
+  height: auto;
+}
+
 .services_group {
   display: grid;
   grid-template-columns: repeat(3, 270px);

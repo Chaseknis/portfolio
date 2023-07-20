@@ -1,6 +1,7 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import './styles/contact.css';
+// import Footer from './Footer';
 
 function Contact() {
   const [state, handleSubmit] = useForm('mzbwnvzb');
@@ -100,6 +101,7 @@ function Contact() {
         </div>
 
       </div>
+      {/* <Footer /> */}
     </section>
   );
 }
