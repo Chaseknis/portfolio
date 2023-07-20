@@ -25,14 +25,14 @@ export const projectsData = [
     image: Work3,
     title: 'Math Magician',
     category: 'app',
-    url: 'https://chaseknis.github.io/calculator',
+    url: 'https://chaseknis.github.io/math_magician/',
   },
   {
     id: 4,
     image: Work4,
     title: 'Car Rental',
     category: 'design',
-    url: 'https://car-rental-capstone.netlify.app/main',
+    url: 'https://car-rental-capstone.netlify.app/',
   },
   {
     id: 5,
