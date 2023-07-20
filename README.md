@@ -31,7 +31,13 @@
 
 ## 📹 Live Demo <a name="live-demo"></a>
 
-  [Live Link](https://chaseknis.github.io/portfolio)
+[Live Link](https://chaseknis.github.io/portfolio)
+
+<img width="1680" alt="Screenshot 2023-07-20 at 12 18 06" src="https://github.com/Chaseknis/portfolio/assets/97366651/e38a52b7-5416-4ea0-ab78-fc772f45c0da">
+
+<img width="391" alt="Screenshot 2023-07-20 at 12 19 00" src="https://github.com/Chaseknis/portfolio/assets/97366651/ab5fbd0f-3d95-4cc9-b3ba-304b9e59703b">
+<img width="387" alt="Screenshot 2023-07-20 at 12 22 09" src="https://github.com/Chaseknis/portfolio/assets/97366651/32070cff-d676-41c2-bd86-9529caa967d1">
+
 
 ### Key Features <a name="key-features"></a>
 
