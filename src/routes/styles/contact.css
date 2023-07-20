@@ -180,4 +180,8 @@
   .contact_group {
     flex-direction: column;
   }
+
+  .form_title {
+    padding-top: 1rem;
+  }
 }

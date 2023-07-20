@@ -65,7 +65,7 @@ function Contact() {
           </div>
 
           <div className="contact_content">
-            <h3 className="contact_title">
+            <h3 className="contact_title form_title">
               Tell me about your project
             </h3>
 
