@@ -18,8 +18,6 @@
   flex-direction: column;
   align-items: center;
   padding: 5% 10% 10% 10%;
-
-  /* margin-bottom: 6rem; */
 }
 
 @media screen and (max-width: 992px) {
